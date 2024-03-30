@@ -1,25 +1,43 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
 }
 
 .logo {
+  display: flex;
   font-size: 48px;
   font-weight: 900;
+  font-family:'Courier New', Courier, monospace;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 0px;
+  width: 75px;
+  height: 35px
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 40px;
+  margin-left: 0px;
+  flex: 1 1 0;
 }
 
 a {
-  font-size: 22px;
+  font-size: 15px;
   background: white;
-  padding: 8px;
+  padding: 4px;
+  display:flex;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }
